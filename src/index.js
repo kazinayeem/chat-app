@@ -55,6 +55,6 @@ io.on("connection", (socket) => {
 });
 
 server.listen(process.env.PORT, () => {
-  db();
+ 
   console.log(` app listening on port ${process.env.PORT}`);
 });
